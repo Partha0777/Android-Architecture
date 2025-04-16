@@ -7,7 +7,7 @@ import com.curiozing.androidArch.mvc.controller.MainController
 
 class MvcMainActivity : AppCompatActivity() {
 
-    lateinit var mainController: MainController
+    private lateinit var mainController: MainController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mvc_main)
