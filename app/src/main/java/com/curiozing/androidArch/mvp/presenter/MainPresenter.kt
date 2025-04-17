@@ -3,12 +3,12 @@ package com.curiozing.androidArch.mvp.presenter
 class MainPresenter(private var mainView: MainView) {
 
 
-    fun apiCall(){
+    fun apiCall() {
         mainView.updateUI()
     }
 
 
-    interface MainView{
+    interface MainView {
         fun updateUI()
     }
 }
