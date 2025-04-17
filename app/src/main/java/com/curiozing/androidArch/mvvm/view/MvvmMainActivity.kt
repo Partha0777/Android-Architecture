@@ -3,7 +3,6 @@ package com.curiozing.androidArch.mvvm.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
-import androidx.lifecycle.ViewModelProvider
 import com.curiozing.androidArch.R
 import com.curiozing.androidArch.mvvm.viewModel.MainViewModel
 
