@@ -15,7 +15,5 @@ class MvpMainActivity : AppCompatActivity(), MainPresenter.MainView {
         mainPresenter = MainPresenter(this)
     }
 
-    override fun updateUI() {
-
-    }
+    override fun updateUI() {}
 }
