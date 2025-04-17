@@ -14,7 +14,5 @@ class MvcMainActivity : AppCompatActivity() {
         mainController = MainController(this)
     }
 
-    fun updateUI(){
-
-    }
+    fun updateUI() {}
 }
