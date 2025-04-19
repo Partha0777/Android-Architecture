@@ -4,6 +4,7 @@ import com.curiozing.androidArch.mvc.view.MvcMainActivity
 
 class MainController(var mvcMainActivity: MvcMainActivity) {
 
+
     fun callApi() {
         mvcMainActivity.updateUI()
     }
