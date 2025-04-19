@@ -7,7 +7,6 @@ class MainPresenter(private var mainView: MainView) {
         mainView.updateUI()
     }
 
-
     interface MainView {
         fun updateUI()
     }
