@@ -1,4 +1,4 @@
-package com.curiozing.androidArch.cleanArch.ui
+package com.curiozing.androidArch.cleanArch.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
