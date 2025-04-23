@@ -1,4 +1,6 @@
 package com.curiozing.androidArch.cleanArch.model.model
 
-class ImageModel {
+import androidx.lifecycle.ViewModel
+
+class ImageModel : ViewModel() {
 }
