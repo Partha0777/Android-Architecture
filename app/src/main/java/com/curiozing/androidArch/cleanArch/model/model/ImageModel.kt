@@ -4,4 +4,5 @@ import androidx.lifecycle.ViewModel
 import com.curiozing.androidArch.cleanArch.domain.entity.ImageEntity
 
 class ImageModel : ImageEntity() {
+
 }
