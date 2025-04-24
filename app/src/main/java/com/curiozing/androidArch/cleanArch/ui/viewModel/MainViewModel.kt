@@ -1,4 +1,6 @@
 package com.curiozing.androidArch.cleanArch.ui.viewModel
 
-class MainViewModel {
+import androidx.lifecycle.ViewModel
+
+class MainViewModel : ViewModel() {
 }
