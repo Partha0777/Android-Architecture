@@ -10,11 +10,11 @@ import com.curiozing.androidArch.mvvm.viewModel.MainViewModel
 
 class CleanArchMainActivity : AppCompatActivity() {
 
-    val mainViewModel: CleanMainViewModel by viewModels()
+    val cleanMainViewModel: CleanMainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clean_arch_main)
-        mainViewModel.callApi()
+        cleanMainViewModel.callApi()
     }
 }
