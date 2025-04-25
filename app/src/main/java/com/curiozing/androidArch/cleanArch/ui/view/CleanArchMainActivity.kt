@@ -14,5 +14,6 @@ class CleanArchMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clean_arch_main)
+        mainViewModel.callApi()
     }
 }
