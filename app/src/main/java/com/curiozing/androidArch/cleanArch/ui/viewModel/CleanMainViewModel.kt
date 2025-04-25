@@ -7,4 +7,8 @@ class CleanMainViewModel : ViewModel() {
     init {
 
     }
+
+    fun callApi(){
+
+    }
 }

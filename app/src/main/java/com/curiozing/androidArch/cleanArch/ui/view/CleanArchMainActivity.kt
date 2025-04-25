@@ -5,11 +5,12 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.ViewModel
 import com.curiozing.androidArch.R
+import com.curiozing.androidArch.cleanArch.ui.viewModel.CleanMainViewModel
 import com.curiozing.androidArch.mvvm.viewModel.MainViewModel
 
 class CleanArchMainActivity : AppCompatActivity() {
 
-    val mainViewModel: MainViewModel by viewModels()
+    val mainViewModel: CleanMainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
