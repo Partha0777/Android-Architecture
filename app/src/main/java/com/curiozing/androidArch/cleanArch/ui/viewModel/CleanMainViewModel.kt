@@ -4,10 +4,6 @@ import androidx.lifecycle.ViewModel
 
 class CleanMainViewModel : ViewModel() {
 
-    init {
-
-    }
-
     fun callApi(){
 
     }
